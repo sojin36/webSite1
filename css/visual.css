@@ -1,0 +1,42 @@
+.visual{
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16/9;
+    max-height: 1080px;
+    min-height: 300px;
+    background-color: rgb(44, 102, 102);
+    padding-top: 15%;
+}
+.visual video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    opacity: 0.3;
+}
+.video-inner{
+    padding-top: 5%;
+    color: #fff;
+}
+.video-inner h2{
+    font-size: clamp(28px, 4vw, 120px);
+}
+.video-inner p{
+    width: 50%;
+    font-size: clamp(12px, 2vw, 18px);
+}
+.video-inner a{
+    display: block;
+    width: 20%;
+    max-width: 300px;
+    min-width: 100px;
+    text-align: center;
+    padding: 1% 0;
+    border: 1px solid #fff;
+    margin-top: 5%;
+    color: #fff;
+    font-size: clamp(12px, 1vw, 16px);
+}

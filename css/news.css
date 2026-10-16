@@ -1,0 +1,23 @@
+.news-wrap{
+    display: grid;
+    gap: 2%;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.news-wrap li{
+    padding: 5%;
+}
+.pic{
+    height: 180px;
+    position: relative;
+    overflow: hidden;
+}
+.pic img{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: block;
+}
+.news-wrap li h3{
+    padding: 2% 0;
+}

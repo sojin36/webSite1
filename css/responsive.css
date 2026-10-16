@@ -1,0 +1,15 @@
+@media (max-width: 900px){
+    .nav > li > a {
+    font-size: 18px;
+}
+}
+
+/* 768 */
+@media (max-width: 768px){
+    .nav{
+        display: none;
+    }
+    .hamburger{
+        display: flex;
+    }
+}

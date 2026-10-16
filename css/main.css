@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+img{
+    width: 100%;
+    display: block;
+}
+/* 공통 영역 */
+.inner{
+    position: relative;
+    width: 90%;
+    max-width: 1280px;
+    margin: auto;
+    /* background-color: rgb(175, 109, 137); */
+}
+section{
+    padding: 7% 0;
+
+}
+section h2{
+    text-align: center;
+    font-size: clamp(20px, 2vw, 24px);
+    font-weight: bold;
+    margin-bottom: 3%;
+}
